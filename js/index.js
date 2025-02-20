@@ -1,3 +1,4 @@
+alert("¡Bienbenido a mi Hoja de vida!");
 document.getElementById("cambiarColor").addEventListener("click", function () {
   let bgColor = window.getComputedStyle(document.body).backgroundColor;
   document.body.style.backgroundColor =
